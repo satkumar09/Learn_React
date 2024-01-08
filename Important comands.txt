@@ -1,0 +1,86 @@
+React: 
+
+
+//to create new project: 
+npx create-react-app proj_name       
+
+//to start project:                
+npm run start      
+
+//create a build folder - containing all static assets-> converted js and css files -> this folder only get served to the users:                                                  
+npm run build                                                       
+
+
+
+
+Vite+React:
+
+
+//to create new app:
+npm create vite@latest
+select project name:
+select a framework:                         //React in our case
+select a variant:                                //JavaScript in our case
+
+//a new project is created without node modules
+//to creact node modules:
+npm install    or     npm i
+
+//to start project: 
+npm run dev
+
+
+
+
+
+
+Tailwind: 
+
+Vite+React:
+//install tailwindcss
+npm install -D tailwindcss postcss autoprefixer 
+
+//create a tailwind file: 
+npx tailwindcss init -p
+
+//change the content block in the tailwind file with the below block: 
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+
+//add the code below in index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+
+
+
+Next js: 
+//installations: 
+npx create-next-app@latest
+
+//proceed and choose project name
+
+//
+What is your project named? my-app
+Would you like to use TypeScript?                                               ----       No 
+Would you like to use ESLint?                                                       ----       No 
+Would you like to use Tailwind CSS?                                           ----       Yes
+Would you like to use `src/` directory?                                         ----       Yes
+Would you like to use App Router? (recommended)                 ----       Yes
+Would you like to customize the default import alias (@/*)?     ----        No
+What import alias would you like configured? @/*
+
+
+
+
+
+
